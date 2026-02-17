@@ -5,6 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    platform: linux/arm64  
     image: sde-decourse-airflow-spark
     container_name: airflow-spark
     ports:
